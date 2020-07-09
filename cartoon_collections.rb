@@ -39,4 +39,3 @@ def find_valid_calls(planeteer_calls)
   
   planeteer_calls.find {|string| string == valid_calls.include?(string)}
 end
-end
